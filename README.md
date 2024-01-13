@@ -16,17 +16,17 @@ It controls the positioning of form sections to make them visible or hidden base
 
 JavaScript (index.js):
 
-JavaScript handles the interactivity of your multi-step form.
+JavaScript handles the interactivity of my multi-step form.
 It uses DOM manipulation to control the visibility and positioning of form sections.
 Event listeners are attached to buttons (next1, back1, next2, back2) to manage the progression between form steps.
 The progress bar's width is adjusted to reflect the current step's progress.
 When the user submits the final step, you can add functionality to process the form data or perform other actions.
-The overall flow of your multi-step form is as follows:
+In summary the overall flow of the multi-step form is as follows:
 
-Initially, only the first form section is visible.
-Users click the "Next" button to proceed to the next step (next1, next2).
-Users click the "Back" button to return to the previous step (back1, back2).
-The progress bar visually indicates the current step.
-After completing all steps, users can submit the form.
-Overall, this architecture provides a structured and user-friendly way to guide users through 
+1. Initially, only the first form section is visible.
+2. Users click the "Next" button to proceed to the next step (next1, next2).
+3. Users click the "Back" button to return to the previous step (back1, back2).
+4. The progress bar visually indicates the current step.
+5. After completing all steps, users can submit the form.
+6. Overall, this architecture provides a structured and user-friendly way to guide users through 
 a multi-step registration process.
