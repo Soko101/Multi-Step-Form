@@ -3,7 +3,7 @@ Simple Multiple step login page
 
 HTML (index.html):
 
-The HTML file defines the structure of the form and includes three form sections wrapped inside a <div class="container">.
+The HTML file defines the structure of the form and includes three form sections wrapped inside.
 Each form section represents a step in the multi-step process.
 The <button> elements inside each form section allow users to navigate between steps or submit the form.
 A progress bar is defined using a <div> with the id "progress" and small steps indicators to display the current step.
