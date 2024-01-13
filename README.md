@@ -11,7 +11,7 @@ A progress bar is defined using a <div> with the id "progress" and small steps i
 
 CSS (style.css):
 
-The CSS file defines the styling for your multi-step form and its components.
+The CSS file defines the styling for my multi-step form and its components.
 It includes styling for form elements, buttons, layout, backgrounds, fonts, and the progress bar.
 It controls the positioning of form sections to make them visible or hidden based on user interactions.
 
@@ -28,7 +28,6 @@ Initially, only the first form section is visible.
 Users click the "Next" button to proceed to the next step (next1, next2).
 Users click the "Back" button to return to the previous step (back1, back2).
 The progress bar visually indicates the current step.
-After completing all steps, users can submit the form (<button type="button" id="submit">Submit</button>).
+After completing all steps, users can submit the form.
 Overall, this architecture provides a structured and user-friendly way to guide users through 
-a multi-step registration process. You can further enhance it by adding 
-form validation and data handling logic to meet your specific requirements.
+a multi-step registration process.
